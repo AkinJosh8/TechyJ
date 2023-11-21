@@ -11,6 +11,11 @@ h2{
     font-size: 30px;
     text-decoration: underline;
 }
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
 nav{
     float: right;
     display: block;
@@ -20,7 +25,7 @@ li{
 }
 li a{
     text-decoration: none;
-    color: rgb(8, 8, 8);
+    color: rgb(252, 252, 252);
     margin: 0px 0px 50px 50px;
     border-spacing: 5px;
     font-size: 20px;
@@ -29,8 +34,6 @@ li a{
     font-family: sans-serif;
     cursor: pointer;
     transition: 0.5s;
-    text-transform: capitalize;
-    text-shadow: 2px 2px 4px rgb(155, 41, 26);
 }
 li a:hover{
     color: red;
@@ -64,9 +67,10 @@ p{
     font-size: 16px;
 }
 .media{
-    border-spacing: 10px;
-    padding: 20px;
+    border-spacing: 5px;
+    margin-left: auto;
+    margin-right: auto;
     width: 50px;
     height: 50px;
-    display: contents;
+    display: flex;
 }
